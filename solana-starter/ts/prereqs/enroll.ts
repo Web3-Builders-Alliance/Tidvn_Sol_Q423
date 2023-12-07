@@ -5,8 +5,8 @@ import {
   AnchorProvider,
   Address,
 } from "@project-serum/anchor";
-import { WbaPrereq, IDL } from "../programs/wba_prereq";
-import { wallet } from "../env.json";
+import { WbaPrereq, IDL } from ../../programs/wba_prereq";
+import { wallet } from "../../env.json";
 
 const keypair = Keypair.fromSecretKey(new Uint8Array(wallet.secretKey));
 const connection = new Connection("https://api.devnet.solana.com");

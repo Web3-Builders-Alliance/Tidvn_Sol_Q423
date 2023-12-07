@@ -1,4 +1,4 @@
-import {wallet,spl} from "../env.json"
+import {wallet,spl} from ../../env.json"
 import { createUmi } from "@metaplex-foundation/umi-bundle-defaults"
 import { 
     createMetadataAccountV3, 

@@ -1,6 +1,6 @@
 import { Keypair, Connection, Commitment } from "@solana/web3.js";
 import { createMint } from "@solana/spl-token";
-import { wallet } from "../env.json";
+import { wallet } from "../../env.json";
 import * as bs58 from "bs58";
 
 // Import our keypair from the wallet file
